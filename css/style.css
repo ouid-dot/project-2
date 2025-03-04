@@ -85,8 +85,8 @@ html {
 }
 #bananas {
    position: absolute;
-   top: 550px;
-   right: 550px;
+   top: 500px;
+   right: 100px;
 }
 #butter {
    position: absolute;
@@ -100,12 +100,13 @@ html {
 }
 #vanilla {
    position: absolute;
-   right: 950px;
+   top: 550px;
+   right: 370px;
 }
 #milk {
    position: absolute;
    top: 650px;
-   left: 140px;
+   left: 120px;
 }
 #flour{
    position: absolute;
@@ -120,40 +121,40 @@ html {
 #mixingbowl{
    position: absolute;
    top: 420px;
-   left: 600px;
+   left: 800px;
 }
 #cups{
    position: absolute;
-   top: 650px;
-   left: 140px;
+   top: 800px;
+   left: 160px;
 }
 #rollingpin{
    position: absolute;
-   top: 200px;
-   left: 350px;
+   top: 350px;
+   left: 90px;
 }
 #piepan{
    position: absolute;
    top: 760px;
-   right: 430px;
+   right: 320px;
 }
 #spatula{
    position: absolute;
-   right: 760px;
+   right: 650px;
    top: 500px;
 }
 #time{
    position: absolute;
    top: 700px;
-   left: 910px;
+   left: 1200px;
 }
 #temp{
    position: absolute;
-   right: 1000px;
-   top: 550px;
+   right: 960px;
+   top: 520px;
 }
 #piegrab{
    position: absolute;
-   right: 250px;
-   top: 500px;
+   right: 100px;
+   top: 270px;
 }
