@@ -1,0 +1,80 @@
+/*
+CSS RESETS:
+ Border box reset:
+https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ 62.5% Fix: https: //www.aleksandrhovhannisyan.com/blog/62-5-percent-font-size-trick/
+*/
+
+
+html {
+   box-sizing: border-box;
+   font-size: 62.5%;
+}
+
+
+*,
+*:before,
+*:after {
+   box-sizing: inherit;
+   margin: 0;
+   padding: 0;
+}
+
+
+html,
+body {
+   height: 100%;
+}
+
+
+body {
+   font-size: 1.6rem;
+   /* font-size 1.6rem is now the same as 16px */
+   line-height: 1.6;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(50, 100, 250);
+   background-color: tan;
+}
+header{
+   padding: 50px;
+   background-color: rgb(100, 0, 50);
+   text-align: center;
+}
+
+
+/* change display to inline-block so images wrap */
+/* .image-div {
+   display: inline-block;
+} */
+
+
+
+.hidden {
+   visibility: hidden;
+}
+
+img {
+   width: 100%;
+   height: 100%;
+}
+
+main {
+   max-width: 1000px;
+   margin: 5% auto;
+   position: relative;
+}
+
+.images-container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.image-div {
+   flex: 0 1 auto;
+   max-width: 33%;
+   max-height: 33%;
+}

@@ -1,0 +1,155 @@
+/*
+CSS RESETS:
+ Border box reset:
+https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ 62.5% Fix: https: //www.aleksandrhovhannisyan.com/blog/62-5-percent-font-size-trick/
+*/
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+ }
+ 
+ header {
+   color: rgb(50, 100, 250);
+
+ }
+ *,
+ *:before,
+ *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ 
+ html,
+ body {
+    height: 100%;
+    color: black;
+    
+ }
+ 
+ 
+ body {
+     font-size: 1.9rem;
+    /* font-size 1.6rem is now the same as 16px */
+    line-height: 1.9;
+    background-color: tan;
+    
+ }
+ 
+ header{
+    padding: 50px;
+    background-color: rgb(100, 0, 50);
+    text-align: center;
+ }
+ main{
+    max-width: 1000px;
+    margin: 5% auto;
+    padding: relative;
+    
+    
+ }
+ .images-container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+.image-div{
+   display: inline-block;
+   position: absolute;
+}
+.image-div1{
+   flex: 0 1 auto;
+    max-width: 33%;
+    max-height: 33%;
+}
+.hidden {
+   visibility: hidden;
+}
+
+#eggs {
+   position: absolute;
+   top: 250px;
+   right: 400px;
+}
+#sugar {
+   position: absolute;
+   top: 300px;
+   right: 650px;
+}
+#bananas {
+   position: absolute;
+   top: 550px;
+   right: 550px;
+}
+#butter {
+   position: absolute;
+   top: 300px;
+   left: 350px;
+}
+#salt {
+   position: absolute;
+   top: 450px;
+   left: 50px;
+}
+#vanilla {
+   position: absolute;
+   right: 950px;
+}
+#milk {
+   position: absolute;
+   top: 650px;
+   left: 140px;
+}
+#flour{
+   position: absolute;
+   top: 650px;
+   left: 400px;
+}
+#piecrust {
+   position: absolute;
+   top: 650px;
+   left: 700px;
+}
+#mixingbowl{
+   position: absolute;
+   top: 650px;
+   left: 700px;
+}
+#cups{
+   position: absolute;
+   top: 650px;
+   left: 140px;
+}
+#rollingpin{
+   position: absolute;
+   top: 300px;
+   left: 350px;
+}
+#piepan{
+   position: absolute;
+   top: 550px;
+   right: 550px;
+}
+#spatula{
+   position: absolute;
+   right: 950px;
+}
+#time{
+   position: absolute;
+   top: 500px;
+   left: 550px;
+}
+#temp{
+   position: absolute;
+}
+#piegrab{
+   position: absolute;
+   right: 550px;
+}
