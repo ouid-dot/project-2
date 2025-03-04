@@ -52,7 +52,7 @@ document.querySelector("#mixingbowl").addEventListener("click", function(){
 })
 document.querySelector("#cups").addEventListener("click", function(){
     document.querySelector("#rollingpin").style.visibility = "visible";
-    alert("Ah yes the good ol measuring cup to make sure we are accurate as possible!");
+    alert("Ah yes the good ol' measuring cup to make sure we are accurate as possible!");
 })
 document.querySelector("#rollingpin").addEventListener("click", function(){
     document.querySelector("#piepan").style.visibility = "visible";
