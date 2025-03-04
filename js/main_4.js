@@ -25,36 +25,44 @@ let pie9 = document.querySelector("#pie9");
 
 pie1.addEventListener('click', () => {
     pie3.style.visibility = "visible";
+    alert("Yes")
 });
 
 
 pie3.addEventListener('click', () => {
     pie7.style.visibility = "visible";
+    alert("I")
 });
 
 
 pie7.addEventListener('click', () => {
     pie2.style.visibility = "visible";
+    alert("Am")
 });
 
 pie2.addEventListener('click', () => {
     pie8.style.visibility = "visible";
+    alert("Now")
 });
 
 pie8.addEventListener('click', () => {
     pie9.style.visibility = "visible";
+    alert("A")
 });
 
 pie9.addEventListener('click', () => {
     pie4.style.visibility = "visible";
+    alert("Pie")
 });
 
 pie4.addEventListener('click', () => {
     pie6.style.visibility = "visible";
+    alert("Master")
 });
 
 pie6.addEventListener('click', () => {
     pie5.style.visibility = "visible";
+    alert("! ! !")
 });
 
 

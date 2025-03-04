@@ -91,7 +91,7 @@ html {
 #butter {
    position: absolute;
    top: 300px;
-   left: 350px;
+   left: 300px;
 }
 #salt {
    position: absolute;
@@ -114,13 +114,13 @@ html {
 }
 #piecrust {
    position: absolute;
-   top: 650px;
-   left: 700px;
+   top: 710px;
+   left: 690px;
 }
 #mixingbowl{
    position: absolute;
-   top: 650px;
-   left: 700px;
+   top: 420px;
+   left: 600px;
 }
 #cups{
    position: absolute;
@@ -129,27 +129,31 @@ html {
 }
 #rollingpin{
    position: absolute;
-   top: 300px;
+   top: 200px;
    left: 350px;
 }
 #piepan{
    position: absolute;
-   top: 550px;
-   right: 550px;
+   top: 760px;
+   right: 430px;
 }
 #spatula{
    position: absolute;
-   right: 950px;
+   right: 760px;
+   top: 500px;
 }
 #time{
    position: absolute;
-   top: 500px;
-   left: 550px;
+   top: 700px;
+   left: 910px;
 }
 #temp{
    position: absolute;
+   right: 1000px;
+   top: 550px;
 }
 #piegrab{
    position: absolute;
-   right: 550px;
+   right: 250px;
+   top: 500px;
 }

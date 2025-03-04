@@ -43,10 +43,41 @@ document.querySelector("#flour").addEventListener("click", function(){
     alert("A required ingredient but honestly I have no idea why.");
 })
 document.querySelector("#piecrust").addEventListener("click", function(){
-    document.querySelector("#piecrust").style.visibility = "visible";
+    document.querySelector("#mixingbowl").style.visibility = "visible";
     alert("Homemade or Store bought no one will ever know.");
 })
-
+document.querySelector("#mixingbowl").addEventListener("click", function(){
+    document.querySelector("#cups").style.visibility = "visible";
+    alert("We need somewhere to mix everthing no?");
+})
+document.querySelector("#cups").addEventListener("click", function(){
+    document.querySelector("#rollingpin").style.visibility = "visible";
+    alert("Ah yes the good ol measuring cup to make sure we are accurate as possible!");
+})
+document.querySelector("#rollingpin").addEventListener("click", function(){
+    document.querySelector("#piepan").style.visibility = "visible";
+    alert("I have no idea what this is for");
+})
+document.querySelector("#piepan").addEventListener("click", function(){
+    document.querySelector("#spatula").style.visibility = "visible";
+    alert("Cannot foget the pie pan! (neva eva neva)");
+})
+document.querySelector("#spatula").addEventListener("click", function(){
+    document.querySelector("#temp").style.visibility = "visible";
+    alert("Okay I may have forgotten the spatula and whisk inside of the drawer");
+})
+document.querySelector("#temp").addEventListener("click", function(){
+    document.querySelector("#time").style.visibility = "visible";
+    alert("Okay this one is simple. We only need to preheat the oven to 275°, and make sure we don't burn the house down again.");
+})
+document.querySelector("#time").addEventListener("click", function(){
+    document.querySelector("#piegrab").style.visibility = "visible";
+    alert("This should only take 25-30 minutes from what this online recipe told me.");
+})
+document.querySelector("#piegrab").addEventListener("click", function(){
+    document.querySelector("#piegrab").style.visibility = "visible";
+    alert("That sounds like the timer. Let me grab this pie and try it now.");
+})
 
 
 
